@@ -1,0 +1,35 @@
+
+.about{
+    background-color:#123456;
+    width:100vw;
+    height:100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#box3{
+    width:40%;
+}
+span{
+    color:orange;
+}
+h1{
+    width:100%;
+    color: white;
+    line-height: 3.3rem;
+}
+#re{
+   
+        background-color: orange;
+        color: aliceblue;
+        height: 13%;
+        width: 25%;
+        border-radius: 20px;
+        margin: 12px 0px;
+        padding:2px;
+        margin-left: 180px;
+    
+}

@@ -1,0 +1,30 @@
+
+
+#certificate{
+    background-color: #123456;
+    width:100vw;
+    height:100vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#certificatepic{
+    width:100%;
+    height:300px;
+}
+
+#cer{
+    text-align: center;
+}
+#certificatebox{
+    width:30%;
+    border: 2px solid white;
+    
+
+}
+#p{
+    width:auto;
+}

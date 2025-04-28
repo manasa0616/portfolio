@@ -1,0 +1,49 @@
+
+.skills{
+    background-color: #123456;
+    width:100vw;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 3 equal columns */
+    
+}
+#s{
+    text-align: center;
+}
+.skills1{
+    width:300px;
+height:auto;
+    background-color: #d7cfcf;
+    color: black;
+    margin: 26px 30px;
+    padding: 0px 10px;
+}
+svg{
+    width:50px;
+    height: 50px;
+}
+@media (min-width:300px) {
+    .skills {
+      grid-template-columns: repeat(1, 1fr); /* 2 boxes per row */
+    }
+  }
+/* For medium screens (tablets) */
+@media (min-width: 600px) {
+    .skills {
+      grid-template-columns: repeat(2, 1fr); /* 2 boxes per row */
+    }
+  }
+  
+  /* For large screens (desktops) */
+  @media (min-width: 1000px) {
+    .skills {
+      grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+    }
+  }
+  
+  /* For very large screens (big desktops) */
+  @media (min-width: 1400px) {
+    .skills{
+      grid-template-columns: repeat(4, 1fr); /* 4 boxes per row */
+    }
+  }

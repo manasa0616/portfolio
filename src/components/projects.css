@@ -1,0 +1,31 @@
+#projects{
+    background-color: #123456;
+    width:100vw;
+    height:100vh;
+
+    color:white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#project{
+    text-align: center;
+}
+.project1{
+    width: 350px;
+    height: 33%;
+    background-color: grey;
+    margin: 10px 20px;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .projects{
+        width:500px;
+
+    }
+  }

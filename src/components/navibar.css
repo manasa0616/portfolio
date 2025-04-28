@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box2{
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0px 10px;
+    color: black;
+}
+h2{
+    padding-left: 10px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding:10px;
+
+}
+li{
+    padding:2px 15px;
+    list-style-type: none;
+
+}
+a{
+    color: black;
+      font-weight: bold;
+}
